@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fffafb; /* trying to get a very light cherry blossom */
+    color: #5a4a4f;
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: #ffe4ee !important;
+}
+
+.navbar-brand,
+.nav-link {
+    color: #5a4a4f !important;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #ff9ec4 !important;
+}
+
+/* HERO SECTION */
+.hero-section {
+    background-color: #fff0f6; /* soft pink section */
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ff8fb8;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin: 20px auto;
+}
+
+/* BUTTONS */
+.btn-pink {
+    background-color: #ffb3cc;
+    color: white;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 30px;
+    margin: 5px;
+}
+
+.btn-pink:hover {
+    background-color: #ff99bb;
+}
+
+/* CARDS */
+.highlight-card {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+    height: 100%;
+}
+
+/* SPACING */
+.section-space {
+    padding: 50px 0;
+}
+
+.highlight-card h4 {
+    color: #c75d85;
+    font-weight: 600;
+}
